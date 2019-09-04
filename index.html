@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <header id="header">
+    <div id="logo-and-name">
+    <img id="header-img" src="https://i.postimg.cc/pXKK5XHn/logo-image.jpg" alt="Company Logo"> 
+    <h1>Company Name</h1>  
+    </div>
+    <nav id="nav-bar">
+      <a href="#video" class="button nav-link">Experience</a>
+      <a href="#form" class="button nav-link">Contact Form</a>
+      <a href="#container"class="button nav-link">Prices</a>
+    </nav>
+  </header>
+  <section>
+    <center><iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/s_ag9sNiNto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+   <form action="submit-email" id="form" method="post" > 
+   <p>Please enter your contact information in the form below, and our manager will contact you as soon as possible.</p>  
+   <label for="email">Email<input type="email" id="email" placeholder="Enter your email" name="email"> </label>
+   <div id="telephone">  
+   <label for="tel">Telephone<input type="tel" id="tel" placeholder="Enter your telephone"> </label>
+     </div>
+   <input type="submit" id="submit" value="Get started">  
+   </form> 
+   <div id="container"> 
+     <div id="class1"><p class="class-title">class name1<p>
+       <p class="price">Starting from 35 000$</p>
+     </div>
+     <div id="class2"><p class="class-title">class name2</p><p class="price">Starting from 60 000$</p></div>  
+     <div id="class3"><p class="class-title">class name3</p><p class="price">Starting from 140 000$</p></div>
+   </div>
+  </section>
+  <footer id="footer"><p>2019 &copy Company Name <a class="footer-link" href="#">Terms of Service </a><a class="footer-link" href="#">Privacy Policy</a></p></footer>
+</body>
+</html>
